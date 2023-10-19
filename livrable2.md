@@ -54,8 +54,29 @@ console.log("cc il faudrais finir la partie juste en haut stp")
 par criticité décroissante, exploitation possible. Actions correctives. -->
 > Ce service a pour but principal de permettre un accès a distance des fichiers présent sur la machine pour les télécharger ou en télécharger vers la machine.
 
-```
-```
+
+#### Vulnérabilité 1
+
+
+- **Nom**: [CVE-2019-12815](https://nvd.nist.gov/vuln/detail/CVE-2019-12815)
+- **Score CVSS**: 7.5
+- **Description**: Un attaquant peut envoyer des fichier arbitraires sans authentification qui peut mené a une rce (remote code execution) et a une divulgation d'information.
+- **Patch**: Mise à jour du serveur FTP vers la version 1.3.6 ou ultérieure.
+
+#### Vulnérabilité 2
+
+- **Nom**: [CVE-2011-1137](https://nvd.nist.gov/vuln/detail/CVE-2011-1137)
+- **Score CVSS**: 5.0
+- **Description**: Un attaquant peut provoquer un déni de service sur un serveur FTP ProFTPD 1.3.3d ou antérieur en envoyant une requête malformée. La requête malformée provoque un dépassement d'entier dans le module mod_sftp, ce qui entraîne un OOM Kill.
+- **Patch**: Mise à jour du serveur FTP vers la version 1.3.4 ou ultérieure.
+
+#### Vulnérabilité 3
+
+- **Nom**: [CVE-2011-1137](https://nvd.nist.gov/vuln/detail/CVE-2011-1137)
+- **Score CVSS**: 5.0
+- **Description**: Un attaquant envoi une requête malformée au serveur FTP, ce qui provoque un OOM Kill qui aboutit donc a un déni de service.
+- **Patch**: Mise à jour du serveur FTP vers la version 1.3.4 ou ultérieure.
+
 
 ### b. Service SSH
 <!-- Même chose pour chaque service étudié dans le Pentest d’une cible -->
