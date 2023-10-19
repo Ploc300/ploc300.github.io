@@ -79,6 +79,26 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 ### b. Service SSH
 <!-- Même chose pour chaque service étudié dans le Pentest d’une cible -->
+**1. Vulnérabilité 1**
+
+- *Nom*: [CVE-2016-6515](https://nvd.nist.gov/vuln/detail/CVE-2016-6515)
+- *Score CVSS*: 7.8
+- *Description*: Un attaquant peut envoyer une requête malformée (mot de passe trop long) pour provoquer un déni de service car la fonction `auth_password` ne limite pas la longueur du mot de passe.
+- *Patch*: Mise à jour du serveur SSH vers la version 7.3 ou ultérieure.
+
+**2. Vulnérabilité 2**
+
+- *Nom*: [CVE-2019-6111](https://nvd.nist.gov/vuln/detail/CVE-2019-6111)
+- *Score CVSS*: 5.8
+- *Description*: Un attaquant peut modifier les fichiers du client en envoyant des fichiers malveillants via scp.
+- *Patch*: Mise à jour du serveur SSH vers une version ultérieure à 7.9.
+
+**3. Vulnérabilité 3**
+
+- *Nom*: [CVE-2015-8325](https://nvd.nist.gov/vuln/detail/CVE-2015-8325)
+- *Score CVSS*: 7.2
+- *Description*: Un attaquant peut utiliser une variable d'environnement `LD_PRELOAD` pour exécuter du code arbitraire avec les privilèges de l'utilisateur.
+- *Patch*: Mise à jour du serveur SSH vers une version ultérieure à 7.2p2.
 
 ### c. Service WEB
 <!-- Même chose² pour chaque service étudié dans le Pentest d’une cible -->
