@@ -72,10 +72,9 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 **3. Vulnérabilité 3**
 
-- *Nom*: [CVE-2011-1137](https://nvd.nist.gov/vuln/detail/CVE-2011-1137)
-- *Score CVSS*: 5.0
-- *Description*: Un attaquant envoi une requête malformée au serveur FTP, ce qui provoque un OOM Kill qui aboutit donc a un déni de service.
-- *Patch*: Mise à jour du serveur FTP vers la version 1.3.4 ou ultérieure.
+```javascript
+console.log("cc il faudrais finir la partie juste en haut stp")
+```
 
 ### b. Service SSH
 <!-- Même chose pour chaque service étudié dans le Pentest d’une cible -->
