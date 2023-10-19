@@ -102,4 +102,23 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 ### c. Service WEB
 <!-- Même chose² pour chaque service étudié dans le Pentest d’une cible -->
+**1. Vulnérabilité 1**
+- *Nom*: [CVE-2019-10098](https://nvd.nist.gov/vuln/detail/CVE-2019-10098)
+- *Score CVSS*: 5.8
+- *Description*: Un attaquant ayant accés au fichiers de configuration du serveur Apache peut modifier le mod_rewrite pour rediriger les requêtes vers un site malveillant.
+- *Patch*: Mise à jour du serveur Apache vers la version 2.4.40 ou ultérieure.
+
+**2. Vulnérabilité 2**
+
+- *Nom*: [CVE-2017-3167](https://nvd.nist.gov/vuln/detail/CVE-2017-3167)
+- *Score CVSS*: 7.5
+- *Description*: Un attaquant peut contourner les exigences d'authentification en utilisant `ap_get_basic_auth_pw()` dans des modules tiers en dehors de la phase d'authentification.
+- *Patch*: Mise à jour du serveur Apache vers la version 2.4.26 ou ultérieure.
+
+**3. Vulnérabilité 3**
+
+- *Nom*: [CVE-2021-40438](https://nvd.nist.gov/vuln/detail/CVE-2021-40438)
+- *Score CVSS*: 6.8
+- *Description*: Un attaquant peut utiliser une requête malformée pour faire en sorte que le serveur Apache redirige la requête vers un serveur choisi par l'attaquant.
+- *Patch*: Mise à jour du serveur Apache vers la version 2.4.50 ou ultérieure.
 
