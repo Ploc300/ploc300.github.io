@@ -20,26 +20,42 @@ console.log("cc il faudrais finir la partie juste en haut stp")
 ### a. Synthèse non technique
 <!-- Conclusions du Pentest sur les aspects utilisateurs, qualité de la politique de sécurité et/ou qualité de mise en œuvre -->
 
-> Le SI est tres vulnerable, un attaquant peu facilement bloquer l'accees de certains service pour le personnel comme pour le public tel que le site web ou vos accees a distance au SI. Il peut également usurper facilement une identité en se connectant avec les comptes administrateurs sur des services non-protéger. Concernant la potlitique de sécurité, il faudrait augmenter la compléxité des mots de passes pour les accèes administrateur, par exemple pour le site web. 
+> Le SI est tres vulnerable, un attaquant peu facilement bloquer l'accees à certains service pour le personnel comme pour le public tel que le site web ou vos accees a distance au SI. Il peut également usurper facilement une identité en se connectant avec les comptes administrateurs sur des services non-protéger. Concernant la potlitique de sécurité, il faudrait augmenter la compléxité des mots de passes pour les accèes administrateur, par exemple pour le site web.
 
 ### b. Synthèse technique
 <!--  Conclusions du Pentest sur la sécurisation des services/protocoles et/ou la
 qualité sécuritaire de leurs configurations-->
+> Les services presents sur le serveur sont tous sur de vieilles versions qui regorgent de failles plus ou moins dangeureuse, certains mot de passes sont trop peu complexe (i.e: WordPress)
+```javascript
+console.log("cc il faudrais finir la partie juste en haut stp")
+```
 
 ### c. Synthèse des Vulnérabilités prioritaires ou les plus critiques
 <!-- Mise en avant des vulnérabilités jugées particulièrement critiques et leurs
 potentiels de nuisances. Chacune précise un niveau de criticité et une estimation
 du niveau de complexité à résoudre/corrige -->
+> Une des vulnérabilités la plus critique est la backdoor sur le service ftp, celle ci est extremement simple a mettre en oeuvre et donne un accèes root aux serveurs ce qui permet a l'attaquant de faire ce qu'il veut sur la machine.
+```javascript
+console.log("cc il faudrais finir la partie juste en haut stp")
+```
 
 ### d. Actions Correctives recommandées
 <!-- Préconisation de changement de politique et de configuration permettant la
 suppression ou l’évitement des nuisances relevées dans le chapitre précédent -->
+> Pour éviter les nuissances vu précedement, les correctif sont relativement simple. Il suffit de mettre les services a jour et opter pour une politiques de mot de passe plus robuste.
+```javascript
+console.log("cc il faudrais finir la partie juste en haut stp")
+```
 
 ## 3. Surface d’attaque du Pentes
 
 ### a. Service FTP
 <!-- Description du service, usage normal de ce service, liste ordonnée des vulnérabilités
 par criticité décroissante, exploitation possible. Actions correctives. -->
+> Ce service a pour but principal de permettre un accès a distance des fichiers présent sur la machine pour les télécharger ou en télécharger vers la machine.
+
+```
+```
 
 ### b. Service SSH
 <!-- Même chose pour chaque service étudié dans le Pentest d’une cible -->
