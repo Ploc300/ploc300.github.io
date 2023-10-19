@@ -88,17 +88,17 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 **2. Vulnérabilité 2**
 
-- *Nom*: [CVE-2017-3167](https://nvd.nist.gov/vuln/detail/CVE-2017-3167)
-- *Score CVSS*: 7.5
-- *Description*: Un attaquant peut contourner les exigences d'authentification en utilisant `ap_get_basic_auth_pw()` dans des modules tiers en dehors de la phase d'authentification.
-- *Patch*: Mise à jour du serveur Apache vers la version 2.4.26 ou ultérieure.
-
-**3. Vulnérabilité 3**
-
 - *Nom*: [CVE-2015-8325](https://nvd.nist.gov/vuln/detail/CVE-2015-8325)
 - *Score CVSS*: 7.2
 - *Description*: Un attaquant peut utiliser une variable d'environnement `LD_PRELOAD` pour exécuter du code arbitraire avec les privilèges de l'utilisateur.
 - *Patch*: Mise à jour du serveur SSH vers une version ultérieure à 7.2p2.
+
+**3. Vulnérabilité 3**
+
+- *Nom*: [CVE-2019-6111](https://nvd.nist.gov/vuln/detail/CVE-2019-6111)
+- *Score CVSS*: 5.8
+- *Description*: Un attaquant peut modifier les fichiers du client en envoyant des fichiers malveillants via scp.
+- *Patch*: Mise à jour du serveur SSH vers une version ultérieure à 7.9.
 
 
 ### c. Service WEB
