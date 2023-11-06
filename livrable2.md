@@ -67,14 +67,15 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 - *Nom*: [CVE-2011-1137](https://nvd.nist.gov/vuln/detail/CVE-2011-1137)
 - *Score CVSS*: 5.0
-- *Description*: Un attaquant peut provoquer un déni de service sur un serveur FTP ProFTPD 1.3.3d ou antérieur en envoyant une requête malformée. La requête malformée provoque un dépassement d'entier dans le module mod_sftp, ce qui entraîne un OOM Kill.
-- *Patch*: Mise à jour du serveur FTP vers la version 1.3.4 ou ultérieure.
+- *Description*: Un attaquant peut provoquer un déni de service sur un serveur FTP ProFTPD antérieur à 1.3.7rc2 en envoyant une commande trop longue au serveur qui provoque une boucle infini dans l'un des fichiers
+- *Patch*: Mise à jour du serveur FTP vers la version 1.3.7rc2 ou ultérieure.
 
 **3. Vulnérabilité 3**
 
-```javascript
-console.log("cc il faudrais finir la partie juste en haut stp")
-```
+- *Nom*: [CVE-2019-18217](https://nvd.nist.gov/vuln/detail/CVE-2019-18217)
+- *Score CVSS*: 5.0
+- *Description*: Un attaquant peut provoquer un déni de service sur un serveur FTP ProFTPD 1.3.3d ou antérieur en envoyant une requête malformée. La requête malformée provoque un dépassement d'entier dans le module mod_sftp, ce qui entraîne un OOM Kill.
+- *Patch*: Mise à jour du serveur FTP vers la version 1.3.4 ou ultérieure.
 
 ### b. Service SSH
 <!-- Même chose pour chaque service étudié dans le Pentest d’une cible -->
