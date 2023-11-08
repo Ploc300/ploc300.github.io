@@ -10,10 +10,7 @@
 
 ### b. Condition d'execution du Pentest 
 <!-- Décrire avec quoi et sur quoi le Pentest s’applique -->
-> Nous avons realiser un pentest de type blackbox, ce genre de pentest est une stratégie simulant une attaque réelle et engage des actions d’intrusion sur le SI via ses accès extérieurs, Tout en ne disposant d’aucune informations sur la cible.
-```javascript
-console.log("cc il faudrais finir la partie juste en haut stp")
-```
+> Nous avons realiser un pentest de type blackbox, ce genre de pentest est une stratégie simulant une attaque réelle et engage des actions d’intrusion sur le SI via ses accès extérieurs, Tout en ne disposant d’aucune informations sur la cible. La seul information disponible est que le serveur se situer sur le même réseau que notre machine.
 
 ## 2. Résultats du Pentest 
 
@@ -47,7 +44,7 @@ suppression ou l’évitement des nuisances relevées dans le chapitre précéde
 console.log("cc il faudrais finir la partie juste en haut stp")
 ```
 
-## 3. Surface d’attaque du Pentes
+## 3. Surface d’attaque du Pentest
 
 ### a. Service FTP
 <!-- Description du service, usage normal de ce service, liste ordonnée des vulnérabilités
