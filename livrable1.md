@@ -35,7 +35,7 @@ netdiscover -i eth1 -r 192.168.56.0/24
 nmap -p- 192.168.56.102 -vv -oN scan_global.txt
 ```
 
-**Nous avons découvert 2 ports ouverts sur la machine cible :**
+**Nous avons découvert 3 ports ouverts sur la machine cible :**
 - 21 (ftp)
 - 22 (ssh)
 - 80 (http)
