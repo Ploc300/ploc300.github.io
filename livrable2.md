@@ -10,8 +10,7 @@
 
 ### b. Condition d'execution du Pentest 
 <!-- Décrire avec quoi et sur quoi le Pentest s’applique -->
-> Nous avons realiser un pentest de type blackbox, ce genre de pentest est une stratégie simulant une attaque réelle et engage des actions d’intrusion sur le SI via ses accès extérieurs, Tout en ne disposant d’aucune informations sur la cible. La seul information disponible est que le serveur se situer sur le même réseau que notre machine.
-
+> Nous avons réalisé un pentest de type blackbox, ce genre de pentest est une stratégie simulant une attaque réelle et engage des actions d’intrusion sur le SI via ses accès extérieurs, tout en ne disposant d’aucunes informations sur la cible. La seule information disponible est que le serveur se situer sur le même réseau que notre machine.
 ## 2. Résultats du Pentest 
 
 ### a. Synthèse non technique
