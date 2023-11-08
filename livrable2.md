@@ -27,18 +27,14 @@
 <!-- Mise en avant des vulnérabilités jugées particulièrement critiques et leurs
 potentiels de nuisances. Chacune précise un niveau de criticité et une estimation
 du niveau de complexité à résoudre/corrige -->
-> Une des vulnérabilités la plus critique est la backdoor sur le service ftp, celle ci est extremement simple a mettre en oeuvre et donne un accèes root aux serveurs ce qui permet a l'attaquant de faire ce qu'il veut sur la machine.
-```javascript
-console.log("cc il faudrais finir la partie juste en haut stp")
-```
+> Une des vulnérabilités la plus critique est la backdoor sur le service ftp, celle ci est extremement simple a mettre en oeuvre et donne un accèes root aux serveurs ce qui permet a l'attaquant de faire ce qu'il veut sur la machine. Le niveau de criticité est lui extreme quant au niveau de compléxité de la correction, elle est trés simple.
+>
+> Une deuxième nuissance importante est le peu de compléxité du mot de passe du serveur web, cela peut entrainer une désinformation des utilisateurs voir des redirection sur des site malveillant
 
 ### d. Actions Correctives recommandées
 <!-- Préconisation de changement de politique et de configuration permettant la
 suppression ou l’évitement des nuisances relevées dans le chapitre précédent -->
 > Pour éviter les nuissances vu précedement, les correctif sont relativement simple. Il suffit de mettre les services a jour et opter pour une politiques de mot de passe plus robuste.
-```javascript
-console.log("cc il faudrais finir la partie juste en haut stp")
-```
 
 ## 3. Surface d’attaque du Pentest
 
