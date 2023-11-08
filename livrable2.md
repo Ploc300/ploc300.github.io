@@ -20,12 +20,8 @@
 > Le SI est tres vulnerable, un attaquant peu facilement bloquer l'accees à certains service pour le personnel comme pour le public tel que le site web ou vos accees a distance au SI. Il peut également usurper facilement une identité en se connectant avec les comptes administrateurs sur des services non-protéger. Concernant la potlitique de sécurité, il faudrait augmenter la compléxité des mots de passes pour les accèes administrateur, par exemple pour le site web.
 
 ### b. Synthèse technique
-<!--  Conclusions du Pentest sur la sécurisation des services/protocoles et/ou la
-qualité sécuritaire de leurs configurations-->
-> Les services presents sur le serveur sont tous sur de vieilles versions qui regorgent de failles plus ou moins dangeureuse, certains mot de passes sont trop peu complexe (i.e: WordPress)
-```javascript
-console.log("cc il faudrais finir la partie juste en haut stp")
-```
+<!--  Conclusions du Pentest sur la sécurisation des services/protocoles et/ou la qualité sécuritaire de leurs configurations-->
+> Les services presents sur le serveur sont tous sur de vieilles versions qui regorgent de failles plus ou moins dangeureuse, certains mot de passes sont trop peu complexe (i.e: WordPress). Il faudrait donc mettre en place une meilleur politique de mise à jour ainsi qu'une politique de mot de passe plus complexe et plsu particuliérement pour les comptes administrateurs.
 
 ### c. Synthèse des Vulnérabilités prioritaires ou les plus critiques
 <!-- Mise en avant des vulnérabilités jugées particulièrement critiques et leurs
