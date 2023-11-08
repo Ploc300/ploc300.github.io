@@ -16,7 +16,7 @@
 ### a. Synthèse non technique
 <!-- Conclusions du Pentest sur les aspects utilisateurs, qualité de la politique de sécurité et/ou qualité de mise en œuvre -->
 
-> Le SI est tres vulnerable, un attaquant peu facilement bloquer l'accees à certains service pour le personnel comme pour le public tel que le site web ou vos accees a distance au SI. Il peut également usurper facilement une identité en se connectant avec les comptes administrateurs sur des services non-protéger. Concernant la potlitique de sécurité, il faudrait augmenter la compléxité des mots de passes pour les accèes administrateur, par exemple pour le site web.
+> Le SI est très vulnérable, un attaquant peu facilement bloquer l'accès à certains services pour le personnel comme pour le public tel que le site web ou vos accès à distance au SI. Il peut également usurper facilement une identité en se connectant avec les comptes administrateurs sur des services non-protéger. Concernant la politique de sécurité, il faudrait augmenter la complexité des mots de passe pour les accès administrateur, par exemple pour le site web.
 
 ### b. Synthèse technique
 <!--  Conclusions du Pentest sur la sécurisation des services/protocoles et/ou la qualité sécuritaire de leurs configurations-->
