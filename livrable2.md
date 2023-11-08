@@ -20,27 +20,27 @@
 
 ### b. Synthèse technique
 <!--  Conclusions du Pentest sur la sécurisation des services/protocoles et/ou la qualité sécuritaire de leurs configurations-->
-> Les services presents sur le serveur sont tous sur de vieilles versions qui regorgent de failles plus ou moins dangeureuse, certains mot de passes sont trop peu complexe (i.e: WordPress). Il faudrait donc mettre en place une meilleur politique de mise à jour ainsi qu'une politique de mot de passe plus complexe et plsu particuliérement pour les comptes administrateurs.
+> Les services présents sur le serveur sont tous sur de vieilles versions qui regorgent de failles plus ou moins dangereuses, certains mots de passe sont trop peu complexe (i.e. WordPress). Il faudrait donc mettre en place une meilleure politique de mise à jour ainsi qu'une politique de mot de passe plus complexe et plus particulièrement pour les comptes administrateurs.
 
 ### c. Synthèse des Vulnérabilités prioritaires ou les plus critiques
 <!-- Mise en avant des vulnérabilités jugées particulièrement critiques et leurs
 potentiels de nuisances. Chacune précise un niveau de criticité et une estimation
 du niveau de complexité à résoudre/corrige -->
-> Une des vulnérabilités la plus critique est la backdoor sur le service ftp, celle ci est extremement simple a mettre en oeuvre et donne un accèes root aux serveurs ce qui permet a l'attaquant de faire ce qu'il veut sur la machine. Le niveau de criticité est lui extreme quant au niveau de compléxité de la correction, elle est trés simple.
+> Une des vulnérabilités la plus critique est la backdoor sur le service ftp, celle-ci est extrêmement simple à mettre en œuvre et donne un accès root aux serveurs ce qui permet a l'attaquant de faire ce qu'il veut sur la machine. Le niveau de criticité est lui extrême quant au niveau de complexité de la correction, elle est très simple.
 >
-> Une deuxième nuissance importante est le peu de compléxité du mot de passe du serveur web, cela peut entrainer une désinformation des utilisateurs voir des redirection sur des site malveillant
+> Une deuxième nuisance importante est le peu de complexité du mot de passe du serveur web, cela peut entraîner une désinformation des utilisateurs voir des redirection sur des sites malveillant.
 
 ### d. Actions Correctives recommandées
 <!-- Préconisation de changement de politique et de configuration permettant la
 suppression ou l’évitement des nuisances relevées dans le chapitre précédent -->
-> Pour éviter les nuissances vu précedement, les correctif sont relativement simple. Il suffit de mettre les services a jour et opter pour une politiques de mot de passe plus robuste.
+> Pour éviter les nuisances vues précédemment, les correctifs sont relativement simples. Il suffit de mettre les services à jour et d'opter pour une politique de mot de passe plus robuste.
 
 ## 3. Surface d’attaque du Pentest
 
 ### a. Service FTP
 <!-- Description du service, usage normal de ce service, liste ordonnée des vulnérabilités
 par criticité décroissante, exploitation possible. Actions correctives. -->
-> Ce service a pour but principal de permettre un accès a distance des fichiers présent sur la machine pour les télécharger ou en télécharger vers la machine.
+> Ce service a pour but principal de permettre un accès à distance des fichiers présent sur la machine pour les télécharger ou en télécharger vers la machine.
 
 
 **1. Vulnérabilité 1**
@@ -48,14 +48,14 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 - *Nom*: [CVE-2019-12815](https://nvd.nist.gov/vuln/detail/CVE-2019-12815)
 - *Score CVSS*: 7.5
-- *Description*: Un attaquant peut envoyer des fichier arbitraires sans authentification qui peut mené a une rce (remote code execution) et a une divulgation d'information.
+- *Description*: Un attaquant peut envoyer des fichiers arbitraires sans authentification qui peut mené a une rce (remote code execution) et a une divulgation d'information.
 - *Patch*: Mise à jour du serveur FTP vers la version 1.3.6 ou ultérieure.
 
 **2. Vulnérabilité 2**
 
 - *Nom*: [CVE-2011-1137](https://nvd.nist.gov/vuln/detail/CVE-2011-1137)
 - *Score CVSS*: 5.0
-- *Description*: Un attaquant peut provoquer un déni de service sur un serveur FTP ProFTPD antérieur à 1.3.7rc2 en envoyant une commande trop longue au serveur qui provoque une boucle infini dans l'un des fichiers
+- *Description*: Un attaquant peut provoquer un déni de service sur un serveur FTP ProFTPD antérieur à 1.3.7rc2 en envoyant une commande trop longue au serveur qui provoque une boucle infinie dans l'un des fichiers
 - *Patch*: Mise à jour du serveur FTP vers la version 1.3.7rc2 ou ultérieure.
 
 **3. Vulnérabilité 3**
@@ -109,7 +109,7 @@ par criticité décroissante, exploitation possible. Actions correctives. -->
 
 - *Nom*: [CVE-2019-10098](https://nvd.nist.gov/vuln/detail/CVE-2019-10098)
 - *Score CVSS*: 5.8
-- *Description*: Un attaquant ayant accés au fichiers de configuration du serveur Apache peut modifier le mod_rewrite pour rediriger les requêtes vers un site malveillant.
+- *Description*: Un attaquant ayant  accès aux fichiers de configuration du serveur Apache peut modifier le mod_rewrite pour rediriger les requêtes vers un site malveillant.
 - *Patch*: Mise à jour du serveur Apache vers la version 2.4.40 ou ultérieure.
 
 
