@@ -6,7 +6,7 @@
 
 ### a. Objet du Pentest
 
-> Un Pentest ou test d'intrusion a pour but de d'antisiper les risque d'ataque par intrusion d'une infrastructure, ainsi nous devons identifier les different levier d'action d'un attaquantetablir les vulnerabiliter de l'infrastructur et leur potentiel nuisance puis produire un plan d'action pour reduire c'est risque.
+> Un Pentest ou test d'intrusion a pour but d'anticiper les risques d'attaque par intrusion d'une infrastructure, ainsi nous devons identifier les différents leviers d'action d'un attaquant, établir les vulnérabilités de l'infrastructure et leurs potentielles nuisances puis produire un plan d'action pour réduire les risques.
 
 ### b. Condition d'execution du Pentest 
 <!-- Décrire avec quoi et sur quoi le Pentest s’applique -->
